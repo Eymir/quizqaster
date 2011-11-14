@@ -3,7 +3,6 @@ package com.android.Quizmaster;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -20,11 +19,11 @@ public class DisplayScores extends Activity {
 
 
         Intent intent = getIntent();
-        String Questions = intent.getStringExtra("Score");
-        String Answered = intent.getStringExtra("Number");
+        String Questions = intent.getStringExtra("Number");
+        String Answered = intent.getStringExtra("Score");
         
-        Ques = (TextView) findViewById(R.id.setQuestions);
-        Ans = (TextView) findViewById(R.id.setAnswers);
+        Ques = (TextView) findViewById(R.id.Questions_Info);
+        Ans = (TextView) findViewById(R.id.Answers_Info);
         
         Ques.setText(Questions);
         Ans.setText(Answered);
@@ -35,7 +34,9 @@ public class DisplayScores extends Activity {
 			@Override
 			public void onClick(View v) {
 				startActivity(new Intent(DisplayScores.this, Main.class));
+				finish();
 			}
 		});
 	}
+	
 }
