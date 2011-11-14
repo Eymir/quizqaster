@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="110dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.48" >
+
+        <Button
+            android:id="@+id/Start"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/Instructions"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/Start"
+            android:layout_below="@+id/Start"
+            android:layout_marginTop="30dp"
+            android:text="Instructions" />
+
+        <Button
+            android:id="@+id/HighScores"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/Instructions"
+            android:layout_below="@+id/Instructions"
+            android:layout_marginTop="30dp"
+            android:text="HighScores" />
+
+        <Button
+            android:id="@+id/Exit"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/HighScores"
+            android:layout_below="@+id/HighScores"
+            android:layout_marginTop="30dp"
+            android:text="Exit" />
+        
+        <Button
+            android:id="@+id/Database"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/Exit"
+            android:layout_below="@+id/Exit"
+            android:layout_marginTop="30dp"
+            android:text="Database" />
+
+    </RelativeLayout>
+
+</LinearLayout>

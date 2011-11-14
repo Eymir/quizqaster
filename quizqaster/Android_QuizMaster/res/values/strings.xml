@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Android_QuizMaster</string>
+    <string name="First">1. A set of Questions will be posed to you.</string>
+    <string name="Second">2. You need to Answer them one at a time.</string>
+    <string name="Third">3. Your Score will be displayed at the end of the Quiz.</string>
+    <string name="Fourth">4. You will have 30 seconds to answer each question.</string>
+    <string name="Heading">Instructions</string>
+    <string name="Test">This is a test string</string>
+    <string name="Answered">Correct:</string>
+    <string name="questions">No Of Questions:</string>
+    <string name="score">Test Scores:</string>
+
+</resources>
