@@ -8,7 +8,7 @@
     <string name="Third">3. Your Score will be displayed at the end of the Quiz.</string>
     <string name="Fourth">4. You will have 30 seconds to answer each question.</string>
     <string name="Heading">Instructions</string>
-    <string name="Test">This is a test string</string>
+    <string name="Test">Question </string>
     <string name="Answered">Correct:</string>
     <string name="questions">No Of Questions:</string>
     <string name="score">Test Scores:</string>
