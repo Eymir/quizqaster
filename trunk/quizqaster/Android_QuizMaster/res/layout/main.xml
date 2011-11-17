@@ -13,7 +13,7 @@
         android:layout_weight="0.48" >
 
         <Button
-            android:id="@+id/Start"
+            android:id="@+id/start"
             android:layout_width="fill_parent"
             android:layout_height="35dp"
             android:layout_alignParentTop="true"
@@ -22,40 +22,31 @@
             android:text="Start" />
 
         <Button
-            android:id="@+id/Instructions"
+            android:id="@+id/instructions"
             android:layout_width="fill_parent"
             android:layout_height="35dp"
-            android:layout_alignLeft="@+id/Start"
-            android:layout_below="@+id/Start"
+            android:layout_alignLeft="@+id/start"
+            android:layout_below="@+id/start"
             android:layout_marginTop="30dp"
             android:text="Instructions" />
 
         <Button
-            android:id="@+id/HighScores"
+            android:id="@+id/extras"
             android:layout_width="fill_parent"
             android:layout_height="35dp"
-            android:layout_alignLeft="@+id/Instructions"
-            android:layout_below="@+id/Instructions"
+            android:layout_alignLeft="@+id/instructions"
+            android:layout_below="@+id/instructions"
             android:layout_marginTop="30dp"
-            android:text="HighScores" />
+            android:text="Extras" />
 
         <Button
-            android:id="@+id/Exit"
+            android:id="@+id/exit"
             android:layout_width="fill_parent"
             android:layout_height="35dp"
-            android:layout_alignLeft="@+id/HighScores"
-            android:layout_below="@+id/HighScores"
+            android:layout_alignLeft="@+id/extras"
+            android:layout_below="@+id/extras"
             android:layout_marginTop="30dp"
             android:text="Exit" />
-        
-        <Button
-            android:id="@+id/Database"
-            android:layout_width="fill_parent"
-            android:layout_height="35dp"
-            android:layout_alignLeft="@+id/Exit"
-            android:layout_below="@+id/Exit"
-            android:layout_marginTop="30dp"
-            android:text="Database" />
 
     </RelativeLayout>
 
